@@ -11,6 +11,6 @@ int main() {
     lru_for_elements<2, 7> cache(ram);
     f(cache, N, 0.1);
     cache.clear();
-    printf("cache cache_misses: %.3f%%\n", cache.get_misses() * 100.0 / cache.get_queries());
+    printf("%d %.3f%%\n", cache.get_misses(), cache.get_misses() * 100.0 / cache.get_queries());
     return 0;
 }

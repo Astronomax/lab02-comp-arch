@@ -1,9 +1,8 @@
-#ifndef UNTITLED1_FUNCTION_H
-#define UNTITLED1_FUNCTION_H
+#ifndef _FUNCTION_H
+#define _FUNCTION_H
 
 #include "lru_for_elements.h"
 #include <string>
-#include <iostream>
 
 template<unsigned int WAYS, unsigned int LINES>
 double read_double(lru_for_elements<WAYS, LINES> &cache, unsigned int ind) {
@@ -56,4 +55,4 @@ void f(lru_for_elements<WAYS, LINES> &cache, int n, double asqr) {
     }
 }
 
-#endif //UNTITLED1_FUNCTION_H
+#endif //_FUNCTION_H

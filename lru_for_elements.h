@@ -1,5 +1,5 @@
-#ifndef UNTITLED1_LRU_FOR_ELEMENTS_H
-#define UNTITLED1_LRU_FOR_ELEMENTS_H
+#ifndef _LRU_FOR_ELEMENTS_H
+#define _LRU_FOR_ELEMENTS_H
 
 #include <cstring>
 #include <cstdint>
@@ -77,4 +77,4 @@ private:
     uint8_t* ram;
 };
 
-#endif //UNTITLED1_LRU_FOR_ELEMENTS_H
+#endif //_LRU_FOR_ELEMENTS_H
