@@ -1,6 +1,6 @@
-cmake_minimum_required(VERSION 3.16)
-project(lab_02)
+cmake_minimum_required(VERSION 3.20)
+project(lab_02_acs)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(lab_02 main.cpp function.h function.cpp lru_for_elements.cpp lru_for_elements.h)
+add_executable(lab_02_acs main.cpp function.h lru_for_elements.h)
