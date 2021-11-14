@@ -1,12 +1,11 @@
 #include "lru_for_elements.h"
 #include "function.h"
-
 using namespace std;
 
 int main() {
     const int N = 1000;
     element arr[N];
-    uint8_t ram[sizeof(element) * N];
+    double ram[8 * N];
     memcpy(ram, arr, sizeof(element) * N);
     lru_for_elements<2, 7> cache(ram);
     f(cache, N, 0.1);
